@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="IT Firma">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Adam">
+      <firstName>Adam</firstName>
+      <lastName>Adamovic</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Bekam">
+      <firstName>Bekam</firstName>
+      <lastName>Bekamic</lastName>
+      <manager>Adam</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Ceca">
+      <firstName>Ceca</firstName>
+      <lastName>Cecanic</lastName>
+      <manager>Adam</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Dalibor">
+      <firstName>Dalibor</firstName>
+      <lastName>Daliboric</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Evgenije">
+      <firstName>Evgenije</firstName>
+      <lastName>Evgenijevic</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Filip">
+      <firstName>Filip</firstName>
+      <lastName>Filipovic</lastName>
+      <manager>Bekam</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Goran">
+      <firstName>Goran</firstName>
+      <lastName>Goranic</lastName>
+      <manager>Dalibor</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Hrizostom">
+      <firstName>Hrizostom</firstName>
+      <lastName>Hrizostomic</lastName>
+      <manager>Evgenije</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Ilija">
+      <firstName>Ilija</firstName>
+      <lastName>Ilic</lastName>
+      <manager>Ceca</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Jovana">
+      <firstName>Jovana</firstName>
+      <lastName>Jovanovic</lastName>
+      <manager>Ceca</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Kazimir">
+      <firstName>Kazimir</firstName>
+      <lastName>Kazimirovic</lastName>
+      <manager>Ceca</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Lepa">
+      <firstName>Lepa</firstName>
+      <lastName>Lepic</lastName>
+      <manager>Ceca</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Milivoje">
+      <firstName>Milivoje</firstName>
+      <lastName>Milivojevic</lastName>
+      <manager>Ceca</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Nevena">
+      <firstName>Nevena</firstName>
+      <lastName>Nevenic</lastName>
+      <manager>Ceca</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Olja">
+      <firstName>Olja</firstName>
+      <lastName>Oljic</lastName>
+      <manager>Ceca</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Petar">
+      <firstName>Petar</firstName>
+      <lastName>Petrovic</lastName>
+      <manager>Ilija</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Rista">
+      <firstName>Rista</firstName>
+      <lastName>Ristic</lastName>
+      <manager>Jovana</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Stanoje">
+      <firstName>Stanoje</firstName>
+      <lastName>Stanojevic</lastName>
+      <manager>Kazimir</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Tamara">
+      <firstName>Tamara</firstName>
+      <lastName>Tamaric</lastName>
+      <manager>Ceca</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Una">
+      <firstName>Una</firstName>
+      <lastName>Unic</lastName>
+      <manager>Tamara</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Zorana">
+      <firstName>Zorana</firstName>
+      <lastName>Zoranic</lastName>
+      <manager>Ceca</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Vesna">
+      <firstName>Vesna</firstName>
+      <lastName>Vesnic</lastName>
+      <manager>Zorana</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="CEO">
+      <displayName>CEO</displayName>
+    </role>
+    <role name="CFO">
+      <displayName>CFO</displayName>
+    </role>
+    <role name="COO">
+      <displayName>COO</displayName>
+    </role>
+    <role name="Finance service employee">
+      <displayName>Finance service employee</displayName>
+    </role>
+    <role name="HR chief">
+      <displayName>HR chief</displayName>
+    </role>
+    <role name="HR service employee">
+      <displayName>HR service employee</displayName>
+    </role>
+    <role name="General service chief">
+      <displayName>General service chief</displayName>
+    </role>
+    <role name="General service employee">
+      <displayName>General service employee</displayName>
+    </role>
+    <role name="Supply service chief">
+      <displayName>Supply service chief</displayName>
+    </role>
+    <role name="Supply service employee">
+      <displayName>Supply service employee</displayName>
+    </role>
+    <role name="Angular developer">
+      <displayName>Angular developer</displayName>
+    </role>
+    <role name="ReactJS developer">
+      <displayName>ReactJS developer</displayName>
+    </role>
+    <role name="VueJS developer">
+      <displayName>VueJS developer</displayName>
+    </role>
+    <role name=".NET developer">
+      <displayName>.NET developer</displayName>
+    </role>
+    <role name="Java developer">
+      <displayName>Java developer</displayName>
+    </role>
+    <role name="Node.js developer">
+      <displayName>Node.js developer</displayName>
+    </role>
+    <role name="Django developer">
+      <displayName>Django developer</displayName>
+    </role>
+    <role name="Fullstack developer">
+      <displayName>Fullstack developer</displayName>
+    </role>
+    <role name="QA tester">
+      <displayName>QA tester</displayName>
+    </role>
+    <role name="DevOps">
+      <displayName>DevOps</displayName>
+    </role>
+    <role name="Junior">
+      <displayName>Junior</displayName>
+      <description>Under 3 years of experience</description>
+    </role>
+    <role name="Medior">
+      <displayName>Medior</displayName>
+      <description>From 3 to 7 years of experience</description>
+    </role>
+    <role name="Senior">
+      <displayName>Senior</displayName>
+      <description>Above 7 years of experience</description>
+    </role>
+  </roles>
+  <groups>
+    <group name="IT Company">
+      <displayName>IT Company</displayName>
+    </group>
+    <group name="Finance service" parentPath="/IT Company">
+      <displayName>Finance service</displayName>
+      <description></description>
+    </group>
+    <group name="HR service" parentPath="/IT Company">
+      <displayName>HR service</displayName>
+    </group>
+    <group name="General service" parentPath="/IT Company">
+      <displayName>General service</displayName>
+    </group>
+    <group name="Supply service" parentPath="/IT Company">
+      <displayName>Supply service</displayName>
+    </group>
+    <group name="IT sector" parentPath="/IT Company">
+      <displayName>IT sector</displayName>
+    </group>
+    <group name="Developers" parentPath="/IT Company/IT sector">
+      <displayName>Developers</displayName>
+    </group>
+    <group name="QA testers" parentPath="/IT Company/IT sector">
+      <displayName>QA testers</displayName>
+    </group>
+    <group name="DevOps" parentPath="/IT Company/IT sector">
+      <displayName>DevOps</displayName>
+    </group>
+    <group name="Frontend" parentPath="/IT Company/IT sector/Developers">
+      <displayName>Frontend</displayName>
+    </group>
+    <group name="Backend" parentPath="/IT Company/IT sector/Developers">
+      <displayName>Backend</displayName>
+    </group>
+    <group name="Fullstack" parentPath="/IT Company/IT sector/Developers">
+      <displayName>Fullstack</displayName>
+    </group>
+    <group name="Angular" parentPath="/IT Company/IT sector/Developers/Frontend">
+      <displayName>Angular</displayName>
+    </group>
+    <group name="ReactJS" parentPath="/IT Company/IT sector/Developers/Frontend">
+      <displayName>ReactJS</displayName>
+    </group>
+    <group name="VueJS" parentPath="/IT Company/IT sector/Developers/Frontend">
+      <displayName>VueJS</displayName>
+    </group>
+    <group name=".NET" parentPath="/IT Company/IT sector/Developers/Backend">
+      <displayName>.NET</displayName>
+    </group>
+    <group name="Java" parentPath="/IT Company/IT sector/Developers/Backend">
+      <displayName>Java</displayName>
+    </group>
+    <group name="Node.js" parentPath="/IT Company/IT sector/Developers/Backend">
+      <displayName>Node.js</displayName>
+    </group>
+    <group name="Django" parentPath="/IT Company/IT sector/Developers/Backend">
+      <displayName>Django</displayName>
+    </group>
+    <group name="Team1" parentPath="/IT Company/IT sector/Developers/Frontend/Angular">
+      <displayName>Team1</displayName>
+    </group>
+    <group name="Team2" parentPath="/IT Company/IT sector/Developers/Frontend/Angular">
+      <displayName>Team2</displayName>
+    </group>
+    <group name="Team1" parentPath="/IT Company/IT sector/Developers/Frontend/ReactJS">
+      <displayName>Team1</displayName>
+    </group>
+    <group name="Team2" parentPath="/IT Company/IT sector/Developers/Frontend/ReactJS">
+      <displayName>Team2</displayName>
+    </group>
+    <group name="Team1" parentPath="/IT Company/IT sector/Developers/Frontend/VueJS">
+      <displayName>Team1</displayName>
+    </group>
+    <group name="Executive board" parentPath="/IT Company">
+      <displayName>Executive board</displayName>
+    </group>
+    <group name="Team1" parentPath="/IT Company/IT sector/Developers/Backend/.NET">
+      <displayName>Team1</displayName>
+    </group>
+    <group name="Team1" parentPath="/IT Company/IT sector/Developers/Backend/Java">
+      <displayName>Team1</displayName>
+    </group>
+    <group name="Team1" parentPath="/IT Company/IT sector/Developers/Backend/Node.js">
+      <displayName>Team1</displayName>
+    </group>
+    <group name="Team1" parentPath="/IT Company/IT sector/Developers/Backend/Django">
+      <displayName>Team1</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Adam</userName>
+      <roleName>CEO</roleName>
+      <groupName>Executive board</groupName>
+      <groupParentPath>/IT Company</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Bekam</userName>
+      <roleName>CFO</roleName>
+      <groupName>Executive board</groupName>
+      <groupParentPath>/IT Company</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Ceca</userName>
+      <roleName>COO</roleName>
+      <groupName>Executive board</groupName>
+      <groupParentPath>/IT Company</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Dalibor</userName>
+      <roleName>HR chief</roleName>
+      <groupName>HR service</groupName>
+      <groupParentPath>/IT Company</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Evgenije</userName>
+      <roleName>Supply service chief</roleName>
+      <groupName>Supply service</groupName>
+      <groupParentPath>/IT Company</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Filip</userName>
+      <roleName>Finance service employee</roleName>
+      <groupName>Finance service</groupName>
+      <groupParentPath>/IT Company</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Goran</userName>
+      <roleName>HR service employee</roleName>
+      <groupName>HR service</groupName>
+      <groupParentPath>/IT Company</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Hrizostom</userName>
+      <roleName>Supply service employee</roleName>
+      <groupName>Supply service</groupName>
+      <groupParentPath>/IT Company</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Ilija</userName>
+      <roleName>Angular developer</roleName>
+      <groupName>Team1</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Frontend/Angular</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Jovana</userName>
+      <roleName>ReactJS developer</roleName>
+      <groupName>Team1</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Frontend/ReactJS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Kazimir</userName>
+      <roleName>VueJS developer</roleName>
+      <groupName>Team1</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Frontend/VueJS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Lepa</userName>
+      <roleName>.NET developer</roleName>
+      <groupName>Team1</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Backend/.NET</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Milivoje</userName>
+      <roleName>Java developer</roleName>
+      <groupName>Team1</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Backend/Java</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Nevena</userName>
+      <roleName>Node.js developer</roleName>
+      <groupName>Team1</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Backend/Node.js</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Olja</userName>
+      <roleName>Django developer</roleName>
+      <groupName>Team1</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Backend/Django</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Petar</userName>
+      <roleName>Angular developer</roleName>
+      <groupName>Team1</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Frontend/Angular</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Rista</userName>
+      <roleName>ReactJS developer</roleName>
+      <groupName>Team1</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Frontend/ReactJS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Stanoje</userName>
+      <roleName>VueJS developer</roleName>
+      <groupName>Team1</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Frontend/VueJS</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Bekam</userName>
+      <roleName>CFO</roleName>
+      <groupName>Finance service</groupName>
+      <groupParentPath>/IT Company</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Tamara</userName>
+      <roleName>QA tester</roleName>
+      <groupName>QA testers</groupName>
+      <groupParentPath>/IT Company/IT sector</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Una</userName>
+      <roleName>QA tester</roleName>
+      <groupName>QA testers</groupName>
+      <groupParentPath>/IT Company/IT sector</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Ilija</userName>
+      <roleName>Senior</roleName>
+      <groupName>Angular</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Frontend</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Jovana</userName>
+      <roleName>Senior</roleName>
+      <groupName>ReactJS</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Frontend</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Kazimir</userName>
+      <roleName>Senior</roleName>
+      <groupName>VueJS</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Frontend</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Lepa</userName>
+      <roleName>Senior</roleName>
+      <groupName>.NET</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Backend</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Milivoje</userName>
+      <roleName>Senior</roleName>
+      <groupName>Java</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Backend</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Nevena</userName>
+      <roleName>Senior</roleName>
+      <groupName>Node.js</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Backend</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Olja</userName>
+      <roleName>Senior</roleName>
+      <groupName>Django</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Backend</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Petar</userName>
+      <roleName>Medior</roleName>
+      <groupName>Angular</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Frontend</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Rista</userName>
+      <roleName>Medior</roleName>
+      <groupName>ReactJS</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Frontend</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Stanoje</userName>
+      <roleName>Medior</roleName>
+      <groupName>VueJS</groupName>
+      <groupParentPath>/IT Company/IT sector/Developers/Frontend</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Tamara</userName>
+      <roleName>Senior</roleName>
+      <groupName>QA testers</groupName>
+      <groupParentPath>/IT Company/IT sector</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Una</userName>
+      <roleName>Medior</roleName>
+      <groupName>QA testers</groupName>
+      <groupParentPath>/IT Company/IT sector</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Zorana</userName>
+      <roleName>DevOps</roleName>
+      <groupName>DevOps</groupName>
+      <groupParentPath>/IT Company/IT sector</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Zorana</userName>
+      <roleName>Senior</roleName>
+      <groupName>DevOps</groupName>
+      <groupParentPath>/IT Company/IT sector</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Vesna</userName>
+      <roleName>DevOps</roleName>
+      <groupName>DevOps</groupName>
+      <groupParentPath>/IT Company/IT sector</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Vesna</userName>
+      <roleName>Medior</roleName>
+      <groupName>DevOps</groupName>
+      <groupParentPath>/IT Company/IT sector</groupParentPath>
+    </membership>
+  </memberships>
+</organization:Organization>
