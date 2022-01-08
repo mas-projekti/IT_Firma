@@ -9,6 +9,15 @@
             <queries/>
             <indexes/>
         </businessObject>
+        <businessObject qualifiedName="com.company.model.Storage">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.ProductType" fetchType="LAZY" name="type" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="quantity" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
         <businessObject qualifiedName="com.company.model.SupplyEquipmentRequest">
             <fields>
                 <field type="STRING" length="255" name="requesterName" nullable="false" collection="false"/>
