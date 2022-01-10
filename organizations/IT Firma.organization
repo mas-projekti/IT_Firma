@@ -197,6 +197,22 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
+    <user userName="Dob1">
+      <firstName>Dobavljac</firstName>
+      <lastName>Prvi</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Dobavljac2">
+      <firstName>Dobavljac</firstName>
+      <lastName>Drugi</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="CEO">
@@ -270,6 +286,9 @@
     <role name="Senior">
       <displayName>Senior</displayName>
       <description>Above 7 years of experience</description>
+    </role>
+    <role name="Supplier company employee">
+      <displayName>Supplier company employee</displayName>
     </role>
   </roles>
   <groups>
@@ -360,6 +379,9 @@
     </group>
     <group name="Team1" parentPath="/IT Company/IT sector/Developers/Backend/Django">
       <displayName>Team1</displayName>
+    </group>
+    <group name="SupplierCompanies">
+      <displayName>SupplierCompanies</displayName>
     </group>
   </groups>
   <memberships>
@@ -584,6 +606,16 @@
       <roleName>Medior</roleName>
       <groupName>DevOps</groupName>
       <groupParentPath>/IT Company/IT sector</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Dob1</userName>
+      <roleName>Supplier company employee</roleName>
+      <groupName>SupplierCompanies</groupName>
+    </membership>
+    <membership>
+      <userName>Dobavljac2</userName>
+      <roleName>Supplier company employee</roleName>
+      <groupName>SupplierCompanies</groupName>
     </membership>
   </memberships>
 </organization:Organization>
