@@ -237,9 +237,11 @@
       <firstName>Dobavljac</firstName>
       <lastName>Prvi</lastName>
       <personalData>
-        <email>dob2@gmail.com</email>
+        <email>dob1@gmail.com</email>
       </personalData>
-      <professionalData/>
+      <professionalData>
+        <email>dob1@gmail.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
@@ -247,9 +249,11 @@
       <firstName>Dobavljac</firstName>
       <lastName>Drugi</lastName>
       <personalData>
-        <email>dob1@gmail.com</email>
+        <email>dob2@gmail.com</email>
       </personalData>
-      <professionalData/>
+      <professionalData>
+        <email>dob2@gmail.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
