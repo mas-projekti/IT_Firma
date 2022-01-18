@@ -197,6 +197,14 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
+    <user userName="Dokon">
+      <firstName>Dokon</firstName>
+      <lastName>Dokonic</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="CEO">
@@ -270,6 +278,9 @@
     <role name="Senior">
       <displayName>Senior</displayName>
       <description>Above 7 years of experience</description>
+    </role>
+    <role name="Unemployed">
+      <displayName>Unemployed</displayName>
     </role>
   </roles>
   <groups>
@@ -360,6 +371,9 @@
     </group>
     <group name="Team1" parentPath="/IT Company/IT sector/Developers/Backend/Django">
       <displayName>Team1</displayName>
+    </group>
+    <group name="Guests">
+      <displayName>Guests</displayName>
     </group>
   </groups>
   <memberships>
@@ -584,6 +598,11 @@
       <roleName>Medior</roleName>
       <groupName>DevOps</groupName>
       <groupParentPath>/IT Company/IT sector</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Dokon</userName>
+      <roleName>Unemployed</roleName>
+      <groupName>Guests</groupName>
     </membership>
   </memberships>
 </organization:Organization>

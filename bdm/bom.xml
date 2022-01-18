@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="7.13.0">
     <businessObjects>
-        <businessObject qualifiedName="com.company.model.BusinessObject">
+        <businessObject qualifiedName="com.company.jobApplication.CandidateApplication">
             <fields>
-                <field type="STRING" length="255" name="attribute" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="name" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="lastname" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="email" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="address" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="education" nullable="false" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="appDate" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isAccepted" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
-            <queries/>
+            <queries>
+                <query name="query" content="SELECT c &#10;FROM CandidateApplication c &#10;WHERE c.name = :name&#10;AND c.lastname = :lastname&#10;AND c.email = :email&#10;AND c.address = :address&#10;AND c.education = :education&#10;ORDER BY c.persistenceId ASC" returnType="com.company.jobApplication.CandidateApplication">
+                    <queryParameters>
+                        <queryParameter name="name" className="java.lang.String"/>
+                        <queryParameter name="lastname" className="java.lang.String"/>
+                        <queryParameter name="email" className="java.lang.String"/>
+                        <queryParameter name="address" className="java.lang.String"/>
+                        <queryParameter name="education" className="java.lang.String"/>
+                    </queryParameters>
+                </query>
+            </queries>
             <indexes/>
         </businessObject>
     </businessObjects>
