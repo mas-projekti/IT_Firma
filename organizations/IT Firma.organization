@@ -197,6 +197,22 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
+    <user userName="Peki">
+      <firstName>Petar</firstName>
+      <lastName>Petrovic</lastName>
+      <title>Mr</title>
+      <jobTitle>General Service worker</jobTitle>
+      <manager>Vesna</manager>
+      <personalData/>
+      <professionalData>
+        <email>petrovicp537@gmail.com</email>
+        <phoneNumber>21312</phoneNumber>
+        <mobileNumber>123123</mobileNumber>
+        <faxNumber>21312</faxNumber>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
   </users>
   <roles>
     <role name="CEO">
@@ -584,6 +600,17 @@
       <roleName>Medior</roleName>
       <groupName>DevOps</groupName>
       <groupParentPath>/IT Company/IT sector</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Peki</userName>
+      <roleName>CEO</roleName>
+      <groupName>IT Company</groupName>
+    </membership>
+    <membership>
+      <userName>Peki</userName>
+      <roleName>General service employee</roleName>
+      <groupName>General service</groupName>
+      <groupParentPath>/IT Company</groupParentPath>
     </membership>
   </memberships>
 </organization:Organization>
