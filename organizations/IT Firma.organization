@@ -282,6 +282,9 @@
     <role name="Unemployed">
       <displayName>Unemployed</displayName>
     </role>
+    <role name="Interviewer">
+      <displayName>Interviewer</displayName>
+    </role>
   </roles>
   <groups>
     <group name="IT Company">
