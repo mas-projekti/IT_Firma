@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "newForm12",
   "name" : "newForm12",
-  "lastUpdate" : 1645138820363,
+  "lastUpdate" : 1645197087430,
   "rows" : [
     [
       {
@@ -191,7 +191,7 @@
                   },
                   "returnedKey" : {
                     "type" : "constant",
-                    "value" : "id"
+                    "value" : "persistenceId"
                   },
                   "value" : {
                     "type" : "variable",
@@ -617,7 +617,7 @@
                               },
                               "readOnly" : {
                                 "type" : "constant",
-                                "value" : false
+                                "value" : true
                               },
                               "label" : {
                                 "type" : "interpolation",
