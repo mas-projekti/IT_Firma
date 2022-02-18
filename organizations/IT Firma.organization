@@ -245,7 +245,7 @@
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
-    <user userName="Dobavljac2">
+    <user userName="dob2">
       <firstName>Dobavljac</firstName>
       <lastName>Drugi</lastName>
       <personalData>
@@ -657,7 +657,7 @@
       <groupName>SupplierCompanies</groupName>
     </membership>
     <membership>
-      <userName>Dobavljac2</userName>
+      <userName>dob2</userName>
       <roleName>Supplier company employee</roleName>
       <groupName>SupplierCompanies</groupName>
     </membership>
