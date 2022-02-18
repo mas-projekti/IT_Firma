@@ -93,8 +93,12 @@
       <firstName>Kazimir</firstName>
       <lastName>Kazimirovic</lastName>
       <manager>Ceca</manager>
-      <personalData/>
-      <professionalData/>
+      <personalData>
+        <email>kazimirkazimirovic@gmail.com</email>
+      </personalData>
+      <professionalData>
+        <email>kazimirkazimirovic@gmail.com</email>
+      </professionalData>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
     </user>
