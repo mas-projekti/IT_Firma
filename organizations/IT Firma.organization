@@ -282,8 +282,14 @@
     <role name="Unemployed">
       <displayName>Unemployed</displayName>
     </role>
-    <role name="Interviewer">
-      <displayName>Interviewer</displayName>
+    <role name="Programmer Interviewer">
+      <displayName>Programmer Interviewer</displayName>
+    </role>
+    <role name="HR interviewer">
+      <displayName>HR interviewer</displayName>
+    </role>
+    <role name="Language Expert Interviewer">
+      <displayName>Language Expert Interviewer</displayName>
     </role>
   </roles>
   <groups>
@@ -606,6 +612,11 @@
       <userName>Dokon</userName>
       <roleName>Unemployed</roleName>
       <groupName>Guests</groupName>
+    </membership>
+    <membership>
+      <userName>Filip</userName>
+      <roleName>Language Expert Interviewer</roleName>
+      <groupName>IT Company</groupName>
     </membership>
   </memberships>
 </organization:Organization>

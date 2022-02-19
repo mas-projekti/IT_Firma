@@ -25,20 +25,17 @@
             </queries>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.company.jobApplication.Commision">
+        <businessObject qualifiedName="com.company.jobApplication.ChosenDate">
             <fields>
-                <relationField type="COMPOSITION" reference="com.company.jobApplication.CommisionMember" fetchType="EAGER" name="commisionMember" nullable="true" collection="true"/>
+                <field type="OFFSETDATETIME" length="255" name="selectedDate" nullable="false" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
             <indexes/>
         </businessObject>
-        <businessObject qualifiedName="com.company.jobApplication.CommisionMember">
+        <businessObject qualifiedName="com.company.jobApplication.InterviewOptions">
             <fields>
-                <field type="LONG" length="255" name="id" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="lastname" nullable="true" collection="false"/>
-                <field type="STRING" length="255" name="username" nullable="true" collection="false"/>
+                <field type="OFFSETDATETIME" length="255" name="listOfDateTimes" nullable="true" collection="true"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
