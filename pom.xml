@@ -164,6 +164,11 @@
       <artifactId>bonita-connector-ldap</artifactId>
       <version>1.2.1</version>
     </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.connectors</groupId>
+      <artifactId>bonita-connector-rest</artifactId>
+      <version>1.2.0</version>
+    </dependency>
   </dependencies>
   <build>
     <pluginManagement>

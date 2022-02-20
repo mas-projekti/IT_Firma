@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "cfoNewReviewForm",
   "name" : "cfoNewReviewForm",
-  "lastUpdate" : 1642539016809,
+  "lastUpdate" : 1645396254216,
   "rows" : [
     [
       {
@@ -666,8 +666,8 @@
                           "value" : false
                         },
                         "hidden" : {
-                          "type" : "constant",
-                          "value" : false
+                          "type" : "expression",
+                          "value" : "newConferenceRequest.isOnline"
                         },
                         "labelPosition" : {
                           "type" : "constant",

@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.2",
-  "id" : "newForm23",
-  "name" : "newForm23",
-  "lastUpdate" : 1645392849750,
+  "id" : "confirmRecievedReservationForm",
+  "name" : "confirmRecievedReservationForm",
+  "lastUpdate" : 1645392719788,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "a11d689d-993a-474b-88d2-2ff3cd31a136",
+        "reference" : "b5e8e653-ba0e-4dbc-b9ac-d14810c8c2b9",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "71c019b2-4345-4918-be9b-973de2538a46",
+              "reference" : "28c4e40b-0dbe-41e8-a4ad-ca51317c686d",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -96,9 +96,21 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
                 }
               },
-              "reference" : "5ae6dc5c-517b-416a-8b19-adaa3a2110b7",
+              "reference" : "fe6ef1b9-6355-4c04-b7e2-eed5aef8dc13",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +126,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "97ead02d-ed1e-43b2-b3f5-ec61eaaa48ce",
+        "reference" : "e580ccc6-b3ac-45f4-9460-870dc4796fdc",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +135,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "951d7381-ff1d-4a69-8ee9-ab41b8db3727",
+          "reference" : "71628f04-2e10-48f1-b905-8b330e7224da",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -196,9 +208,32 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable",
+                    "value" : ""
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
-                "reference" : "c0c4428d-f5c6-4254-a532-18afb363462f",
+                "reference" : "3e269437-c2de-4ded-ba52-1763c90e23af",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -250,7 +285,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "15df9cf9-0d53-4403-88f6-cc5f8885e67a",
+                "reference" : "8615fe6d-a2e6-4ae7-90f4-739cdd2f201f",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -263,14 +298,14 @@
   ],
   "assets" : [
     {
-      "id" : "f7ab7780-bd5b-43ea-b6b3-8dfec93df1d6",
+      "id" : "6c44dba4-acaf-4458-ad43-11e995f87e76",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "04982b5e-34d6-4f6c-844b-6c8b4ce5acef",
+      "id" : "1201c65b-07db-435d-906e-79c3bb3f2e54",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
@@ -326,7 +361,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "108bf1b5-dcb0-4c81-8de0-57f7397db286",
+  "uuid" : "8feaad2b-36c1-4766-b634-823bbbf1a1bb",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

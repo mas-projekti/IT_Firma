@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "supervisorReviewForm",
   "name" : "supervisorReviewForm",
-  "lastUpdate" : 1645137453008,
+  "lastUpdate" : 1645401005255,
   "rows" : [
     [
       {
@@ -736,7 +736,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Budget"
+                          "value" : "Accommodation Budget"
                         },
                         "placeholder" : {
                           "type" : "constant"
@@ -766,7 +766,8 @@
                           "value" : ""
                         },
                         "min" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : 0
                         },
                         "max" : {
                           "type" : "constant"
@@ -848,7 +849,8 @@
                           "value" : ""
                         },
                         "min" : {
-                          "type" : "constant"
+                          "type" : "constant",
+                          "value" : 0
                         },
                         "max" : {
                           "type" : "constant"

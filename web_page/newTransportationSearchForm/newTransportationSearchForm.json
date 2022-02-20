@@ -2,7 +2,7 @@
   "modelVersion" : "2.2",
   "id" : "newTransportationSearchForm",
   "name" : "newTransportationSearchForm",
-  "lastUpdate" : 1645139398081,
+  "lastUpdate" : 1645401085343,
   "rows" : [
     [
       {
@@ -750,47 +750,6 @@
                         ],
                         [
                           {
-                            "type" : "component",
-                            "dimension" : {
-                              "md" : 12,
-                              "sm" : 12,
-                              "xs" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
-                              "hidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "level" : {
-                                "type" : "constant",
-                                "value" : "Level 4"
-                              },
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "text" : {
-                                "type" : "interpolation",
-                                "value" : "Type"
-                              },
-                              "alignment" : {
-                                "type" : "constant",
-                                "value" : "left"
-                              },
-                              "dimension" : {
-                                "type" : "constant",
-                                "value" : 12
-                              }
-                            },
-                            "reference" : "999e8d05-ccf1-4ee6-9b2e-922bebd877bb",
-                            "hasValidationError" : false,
-                            "id" : "pbTitle",
-                            "description" : ""
-                          }
-                        ],
-                        [
-                          {
                             "type" : "container",
                             "dimension" : {
                               "md" : 12,
@@ -960,7 +919,8 @@
                                 "value" : ""
                               },
                               "min" : {
-                                "type" : "constant"
+                                "type" : "constant",
+                                "value" : 0
                               },
                               "max" : {
                                 "type" : "constant"
