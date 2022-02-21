@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.2",
-  "id" : "newForm2",
-  "name" : "newForm2",
-  "lastUpdate" : 1641838096484,
+  "id" : "desetaFormicaES",
+  "name" : "desetaFormicaES",
+  "lastUpdate" : 1645471244183,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "24173375-56b8-4ff1-b39d-aed6d8bbfcb6",
+        "reference" : "48c0da2b-c485-47f8-9119-657c2f5ca1ec",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "8b04313b-0539-4f1c-b54d-10c1d3017766",
+              "reference" : "8df4a6d9-6f6e-4f4e-953b-0a2fcc446d84",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "6f9f5366-8721-49a2-b11c-7ec166c3de9f",
+              "reference" : "92bb486d-6b66-47ba-b6de-0658216ce2a0",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "c9a63efa-2458-4b19-8e33-64d37db0a1a2",
+        "reference" : "dce56eef-0ebe-48ee-a5b9-64a9e3dd22ae",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "fdc9cea9-6ead-4b61-b335-4d4d00055686",
+          "reference" : "80b2941a-213e-40fe-82f9-080251f51ed3",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -154,7 +154,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Posalji zahtev dobavljacima"
+                    "value" : "Issue equipment"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -221,7 +221,7 @@
                     "value" : ""
                   }
                 },
-                "reference" : "52e7c8b4-440f-4337-b164-562a8bcf88e1",
+                "reference" : "31f403d3-f4d6-44b3-aac1-2f025fd05147",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -273,7 +273,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "819b4ee3-bc5b-444f-a2be-9eb7dd5d9c23",
+                "reference" : "0de69470-079a-47a9-a1ed-84bbcd410432",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -286,16 +286,16 @@
   ],
   "assets" : [
     {
-      "id" : "52c6ba66-21d2-49a3-9c68-54c9c13b6bb7",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "52984adf-4f87-406b-815f-5f289f0d0974",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "582a8f07-9933-4d49-b133-e02fe8286c13",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "0a7335d8-8cf0-4457-bcbc-f7e0393cfe95",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }
@@ -306,6 +306,15 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "formInput" : {
+      "type" : "json",
+      "value" : [
+        "{\r",
+        "  \"issueInput\" : false\r",
+        "}"
       ],
       "exposed" : false
     },
@@ -328,7 +337,7 @@
       "type" : "expression",
       "value" : [
         "return {",
-        "",
+        "\tissueInput: $data.formInput.issueInput",
         "}"
       ],
       "exposed" : false
@@ -349,7 +358,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "48994d85-2a52-4617-9c47-fba9c1d0e3f8",
+  "uuid" : "bdf0384b-0bd8-4e07-8f5b-829accb60f6a",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.2",
-  "id" : "newForm16",
-  "name" : "newForm16",
-  "lastUpdate" : 1645136390508,
+  "id" : "dvanaestaFormicaES",
+  "name" : "dvanaestaFormicaES",
+  "lastUpdate" : 1645471305180,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "e199391a-1f66-4add-9d3b-e943b533de7a",
+        "reference" : "4603329a-c7be-4ceb-864f-58fbff4fdad8",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -50,7 +50,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "5148932c-7120-42a8-94f4-394ae71e50e6",
+              "reference" : "bb8b054c-dd81-4ac8-b0d0-829f37702ae1",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +98,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "56c24085-a1eb-48ab-a1f6-ba0f64e09d7d",
+              "reference" : "573c4e04-8e6f-4477-aea6-44ce27f163d9",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -114,7 +114,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "9e4aba14-bcbc-44b5-b076-7bedf31324ca",
+        "reference" : "9cdf3c76-2f7c-4375-a946-410bdcdb31d5",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +123,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "c5a87d4c-b6e3-46f9-9f84-34408deae8b5",
+          "reference" : "aad73e10-212a-4abb-9a5d-298ebd5313f5",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -151,7 +151,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Porudzbenica"
+                    "value" : "Supplier Offers"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -162,7 +162,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "bab84521-824d-478f-977b-b8a4c8f46cfb",
+                "reference" : "c3d6198c-3398-4172-a270-891903884bf9",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +194,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "36135df9-ade5-4127-a0c9-36f4725afe96",
+                "reference" : "94f15472-fd3a-4745-92ef-0e8d479727a5",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -208,129 +208,67 @@
                         "lg" : 12
                       },
                       "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
                         "hidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "level" : {
+                        "labelPosition" : {
                           "type" : "constant",
-                          "value" : "Level 4"
+                          "value" : "top"
                         },
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "text" : {
+                        "availableValues" : {
+                          "type" : "expression",
+                          "value" : "productType_query"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "label" : {
                           "type" : "interpolation",
                           "value" : "Product"
                         },
-                        "alignment" : {
+                        "placeholder" : {
                           "type" : "constant",
-                          "value" : "left"
+                          "value" : "Select a Product"
                         },
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
-                        }
-                      },
-                      "reference" : "ce4b9fe5-b72e-4853-82b5-5a139f5383f1",
-                      "hasValidationError" : false,
-                      "id" : "pbTitle",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "container",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "repeatedCollection" : {
-                          "type" : "variable"
                         },
-                        "hidden" : {
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "formInput.supplierOffersInput.product"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "disabled" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "cssClasses" : {
+                        "displayedKey" : {
+                          "type" : "constant",
+                          "value" : "typeName"
+                        },
+                        "returnedKey" : {
                           "type" : "constant",
                           "value" : ""
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
                         }
                       },
-                      "reference" : "e80c351b-fb04-408c-9025-b928a0d78c25",
+                      "reference" : "7e10567c-5956-45a2-87d3-5ece0fa5fa50",
                       "hasValidationError" : false,
-                      "id" : "pbContainer",
-                      "rows" : [
-                        [
-                          {
-                            "type" : "component",
-                            "dimension" : {
-                              "md" : 12,
-                              "sm" : 12,
-                              "xs" : 12,
-                              "lg" : 12
-                            },
-                            "propertyValues" : {
-                              "allowHtml" : {
-                                "type" : "constant",
-                                "value" : true
-                              },
-                              "labelHidden" : {
-                                "type" : "constant",
-                                "value" : false
-                              },
-                              "hidden" : {
-                                "type" : "expression",
-                                "value" : "!bestOfferData.product.typeName"
-                              },
-                              "cssClasses" : {
-                                "type" : "constant",
-                                "value" : ""
-                              },
-                              "label" : {
-                                "type" : "interpolation",
-                                "value" : "Type Name"
-                              },
-                              "text" : {
-                                "type" : "interpolation",
-                                "value" : "{{bestOfferData.product.typeName}}"
-                              },
-                              "alignment" : {
-                                "type" : "constant",
-                                "value" : "left"
-                              },
-                              "dimension" : {
-                                "type" : "constant",
-                                "value" : 12
-                              },
-                              "labelPosition" : {
-                                "type" : "constant",
-                                "value" : "top"
-                              },
-                              "labelWidth" : {
-                                "type" : "constant",
-                                "value" : 4
-                              },
-                              "allowHTML" : {
-                                "type" : "constant",
-                                "value" : true
-                              }
-                            },
-                            "reference" : "71b3ac41-f1c8-4e1d-ba77-ea41098db83e",
-                            "hasValidationError" : false,
-                            "id" : "pbText",
-                            "description" : ""
-                          }
-                        ]
-                      ]
+                      "id" : "pbSelect",
+                      "description" : ""
                     }
                   ],
                   [
@@ -365,7 +303,7 @@
                         },
                         "readOnly" : {
                           "type" : "constant",
-                          "value" : true
+                          "value" : false
                         },
                         "label" : {
                           "type" : "interpolation",
@@ -384,7 +322,7 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "bestOfferData.price"
+                          "value" : "formInput.supplierOffersInput.price"
                         },
                         "required" : {
                           "type" : "constant",
@@ -409,89 +347,7 @@
                           "value" : 1
                         }
                       },
-                      "reference" : "1b1a7e52-8a83-4bf6-9386-71dc492d8473",
-                      "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "labelPosition" : {
-                          "type" : "constant",
-                          "value" : "top"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Supplier Username"
-                        },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
-                          "type" : "constant",
-                          "value" : "text"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "bestOfferData.supplierUsername"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "minLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "maxLength" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "min" : {
-                          "type" : "constant"
-                        },
-                        "max" : {
-                          "type" : "constant"
-                        },
-                        "step" : {
-                          "type" : "constant",
-                          "value" : 1
-                        }
-                      },
-                      "reference" : "5612a8c0-239d-4852-b3d9-06f15f2cc63f",
+                      "reference" : "2777da2d-0834-482d-bebd-04535672569a",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -527,7 +383,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Potpisujem placanje"
+                    "value" : "Submit"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -594,7 +450,7 @@
                     "value" : ""
                   }
                 },
-                "reference" : "357648f2-0efb-4530-925f-ab33caa70612",
+                "reference" : "31d2f2b5-781f-4ed7-9b68-9b3b7e3557e7",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -646,7 +502,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "46af9d8a-a88e-457c-a16c-c1c15cd0e579",
+                "reference" : "05e05fd4-9559-452e-abf3-b310384427ac",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -659,14 +515,14 @@
   ],
   "assets" : [
     {
-      "id" : "92b61458-4981-47dc-9a22-3733255134b9",
+      "id" : "158c0678-0081-4b3f-b647-61cf6349d644",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "d084647d-65aa-4dac-a8a6-a19b6b0fbc06",
+      "id" : "2464ccd3-138e-4987-a34e-592b88db1729",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
@@ -679,6 +535,21 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}"
+      ],
+      "exposed" : false
+    },
+    "formInput" : {
+      "type" : "json",
+      "value" : [
+        "{\r",
+        "  \"supplierOffersInput\" : {\r",
+        "    \"persistenceId_string\" : \"\",\r",
+        "    \"product\" : {\r",
+        "      \"persistenceId_string\" : \"\"\r",
+        "    },\r",
+        "    \"price\" : 0\r",
+        "  }\r",
+        "}"
       ],
       "exposed" : false
     },
@@ -704,27 +575,11 @@
       ],
       "exposed" : false
     },
-    "bestOfferData" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.bestOfferData_ref.link}}"
-      ],
-      "exposed" : false
-    },
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.bestOfferData ){",
-        "\treturn {",
-        "\t\t//map bestOfferData variable to expected task contract input",
-        "\t\tbestOfferDataInput: {",
-        "\t\t\tproduct: $data.bestOfferData.product ? {",
-        "\t\t\t\tpersistenceId_string: $data.bestOfferData.product.persistenceId_string !== undefined ? $data.bestOfferData.product.persistenceId_string : null",
-        "\t\t\t} : null,",
-        "\t\t\tprice: $data.bestOfferData.price !== undefined ? $data.bestOfferData.price : null,",
-        "\t\t\tsupplierUsername: $data.bestOfferData.supplierUsername !== undefined ? $data.bestOfferData.supplierUsername : null",
-        "\t\t}",
-        "\t}",
+        "return {",
+        "\tsupplierOffersInput: $data.formInput.supplierOffersInput",
         "}"
       ],
       "exposed" : false
@@ -745,7 +600,7 @@
     }
   },
   "hasValidationError" : false,
-  "uuid" : "a1023c73-1eec-435f-aa9b-cb09a11bd3e3",
+  "uuid" : "e8e653d7-d5b0-43fd-b93b-13ef895779fa",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }
