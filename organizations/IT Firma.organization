@@ -5,7 +5,9 @@
     <user userName="Adam">
       <firstName>Adam</firstName>
       <lastName>Adamovic</lastName>
-      <personalData/>
+       <personalData>
+        <email>adam@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -14,7 +16,9 @@
       <firstName>Bekam</firstName>
       <lastName>Bekamic</lastName>
       <manager>Adam</manager>
-      <personalData/>
+       <personalData>
+        <email>bekam@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -23,7 +27,9 @@
       <firstName>Ceca</firstName>
       <lastName>Cecanic</lastName>
       <manager>Adam</manager>
-      <personalData/>
+      <personalData>
+        <email>ceca@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -31,7 +37,9 @@
     <user userName="Dalibor">
       <firstName>Dalibor</firstName>
       <lastName>Daliboric</lastName>
-      <personalData/>
+       <personalData>
+        <email>dalibor@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -39,7 +47,9 @@
     <user userName="Evgenije">
       <firstName>Evgenije</firstName>
       <lastName>Evgenijevic</lastName>
-      <personalData/>
+       <personalData>
+        <email>evgenije@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -48,7 +58,9 @@
       <firstName>Filip</firstName>
       <lastName>Filipovic</lastName>
       <manager>Bekam</manager>
-      <personalData/>
+      <personalData>
+        <email>filip@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -57,7 +69,9 @@
       <firstName>Goran</firstName>
       <lastName>Goranic</lastName>
       <manager>Dalibor</manager>
-      <personalData/>
+      <personalData>
+        <email>dalibor@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -66,7 +80,9 @@
       <firstName>Hrizostom</firstName>
       <lastName>Hrizostomic</lastName>
       <manager>Evgenije</manager>
-      <personalData/>
+      <personalData>
+        <email>Hrizostom@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -75,7 +91,9 @@
       <firstName>Ilija</firstName>
       <lastName>Ilic</lastName>
       <manager>Ceca</manager>
-      <personalData/>
+      <personalData>
+        <email>ilija@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -84,7 +102,9 @@
       <firstName>Jovana</firstName>
       <lastName>Jovanovic</lastName>
       <manager>Ceca</manager>
-      <personalData/>
+      <personalData>
+        <email>jovana@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -93,7 +113,9 @@
       <firstName>Kazimir</firstName>
       <lastName>Kazimirovic</lastName>
       <manager>Ceca</manager>
-      <personalData/>
+      <personalData>
+        <email>kazimir@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -102,7 +124,9 @@
       <firstName>Lepa</firstName>
       <lastName>Lepic</lastName>
       <manager>Ceca</manager>
-      <personalData/>
+      <personalData>
+        <email>lepa@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -111,7 +135,9 @@
       <firstName>Milivoje</firstName>
       <lastName>Milivojevic</lastName>
       <manager>Ceca</manager>
-      <personalData/>
+      <personalData>
+        <email>milivoje@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -120,7 +146,9 @@
       <firstName>Nevena</firstName>
       <lastName>Nevenic</lastName>
       <manager>Ceca</manager>
-      <personalData/>
+      <personalData>
+        <email>nevena@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -129,7 +157,9 @@
       <firstName>Olja</firstName>
       <lastName>Oljic</lastName>
       <manager>Ceca</manager>
-      <personalData/>
+      <personalData>
+        <email>olja@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -138,7 +168,9 @@
       <firstName>Petar</firstName>
       <lastName>Petrovic</lastName>
       <manager>Ilija</manager>
-      <personalData/>
+      <personalData>
+        <email>petar@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -147,7 +179,9 @@
       <firstName>Rista</firstName>
       <lastName>Ristic</lastName>
       <manager>Jovana</manager>
-      <personalData/>
+       <personalData>
+        <email>rista@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -156,7 +190,9 @@
       <firstName>Stanoje</firstName>
       <lastName>Stanojevic</lastName>
       <manager>Kazimir</manager>
-      <personalData/>
+        <personalData>
+        <email>stanoje@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -165,7 +201,9 @@
       <firstName>Tamara</firstName>
       <lastName>Tamaric</lastName>
       <manager>Ceca</manager>
-      <personalData/>
+       <personalData>
+        <email>tamara@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -174,7 +212,9 @@
       <firstName>Una</firstName>
       <lastName>Unic</lastName>
       <manager>Tamara</manager>
-      <personalData/>
+        <personalData>
+        <email>una@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -183,7 +223,9 @@
       <firstName>Zorana</firstName>
       <lastName>Zoranic</lastName>
       <manager>Ceca</manager>
-      <personalData/>
+       <personalData>
+        <email>zorana@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -192,7 +234,9 @@
       <firstName>Vesna</firstName>
       <lastName>Vesnic</lastName>
       <manager>Zorana</manager>
-      <personalData/>
+      <personalData>
+        <email>vesna@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
@@ -200,15 +244,63 @@
     <user userName="Dokon">
       <firstName>Dokon</firstName>
       <lastName>Dokonic</lastName>
-      <personalData/>
+      <personalData>
+        <email>dokon@gmail.com</email>
+      </personalData>
       <professionalData/>
       <password encrypted="false">bpm</password>
       <customUserInfoValues/>
+    </user>
+    <user userName="Dob1">
+      <firstName>Dokon</firstName>
+      <firstName>Dobavljac</firstName>
+      <lastName>Dokonic</lastName>
+      <lastName>Prvi</lastName>
+      <personalData/>
+      <personalData>
+        <email>dob1@gmail.com</email>
+      </personalData>
+      <professionalData/>
+      <professionalData>
+        <email>dob1@gmail.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="dob2">
+      <firstName>Dobavljac</firstName>
+      <lastName>Drugi</lastName>
+      <personalData>
+        <email>dob2@gmail.com</email>
+      </personalData>
+      <professionalData>
+        <email>dob2@gmail.com</email>
+      </professionalData>
+      <password encrypted="false">bpm</password>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+      <customUserInfoValues/>
+    </user>
     </user>
   </users>
   <roles>
     <role name="CEO">
       <displayName>CEO</displayName>
+    </role>
+     <role name="Supplier company employee">
+       <displayName>Supplier company employee</displayName>
+    </role>
+    <role name="Unemployed">
+      <displayName>Unemployed</displayName>
+    </role>
+    <role name="Programmer Interviewer">
+      <displayName>Programmer Interviewer</displayName>
+    </role>
+    <role name="HR interviewer">
+      <displayName>HR interviewer</displayName>
+    </role>
+    <role name="Language Expert Interviewer">
+      <displayName>Language Expert Interviewer</displayName>
     </role>
     <role name="CFO">
       <displayName>CFO</displayName>
@@ -351,6 +443,12 @@
     <group name="Django" parentPath="/IT Company/IT sector/Developers/Backend">
       <displayName>Django</displayName>
     </group>
+    <group name="Guests">
+      <displayName>Guests</displayName>
+    </group>
+    <group name="SupplierCompanies">
+      <displayName>SupplierCompanies</displayName>
+    </group>
     <group name="Team1" parentPath="/IT Company/IT sector/Developers/Frontend/Angular">
       <displayName>Team1</displayName>
     </group>
@@ -451,6 +549,26 @@
       <roleName>VueJS developer</roleName>
       <groupName>Team1</groupName>
       <groupParentPath>/IT Company/IT sector/Developers/Frontend/VueJS</groupParentPath>
+    </membership>
+     <membership>
+      <userName>Dokon</userName>
+      <roleName>Unemployed</roleName>
+      <groupName>Guests</groupName>
+    </membership>
+    <membership>
+      <userName>Filip</userName>
+      <roleName>Language Expert Interviewer</roleName>
+      <groupName>IT Company</groupName>
+    </membership>
+     <membership>
+      <userName>Dob1</userName>
+      <roleName>Supplier company employee</roleName>
+      <groupName>SupplierCompanies</groupName>
+    </membership>
+    <membership>
+      <userName>dob2</userName>
+      <roleName>Supplier company employee</roleName>
+      <groupName>SupplierCompanies</groupName>
     </membership>
     <membership>
       <userName>Lepa</userName>
