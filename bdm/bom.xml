@@ -28,6 +28,9 @@
         <businessObject qualifiedName="com.company.jobApplication.ChosenDate">
             <fields>
                 <field type="OFFSETDATETIME" length="255" name="selectedDate" nullable="false" collection="false"/>
+        <businessObject qualifiedName="com.company.model.ProductType">
+            <fields>
+                <field type="STRING" length="64" name="typeName" nullable="false" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
@@ -36,6 +39,43 @@
         <businessObject qualifiedName="com.company.jobApplication.InterviewOptions">
             <fields>
                 <field type="OFFSETDATETIME" length="255" name="listOfDateTimes" nullable="true" collection="true"/>
+        <businessObject qualifiedName="com.company.model.Storage">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.ProductType" fetchType="LAZY" name="type" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="quantity" nullable="false" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.SupplierOffer">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.ProductType" fetchType="EAGER" name="product" nullable="false" collection="false"/>
+                <field type="DOUBLE" length="255" name="price" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="supplierUsername" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.SupplyEquipmentRequest">
+            <fields>
+                <field type="STRING" length="255" name="requesterName" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="requesterLastName" nullable="false" collection="false"/>
+                <relationField type="COMPOSITION" reference="com.company.model.SupplyRequestItem" fetchType="LAZY" name="items" nullable="true" collection="true"/>
+                <field type="BOOLEAN" length="255" name="isApproved" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="denialComment" nullable="true" collection="false"/>
+                <field type="FLOAT" length="255" name="budget" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.company.model.SupplierOffer" fetchType="LAZY" name="supplierOffers" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.SupplyRequestItem">
+            <fields>
+                <relationField type="AGGREGATION" reference="com.company.model.ProductType" fetchType="EAGER" name="productType" nullable="false" collection="false"/>
+                <field type="INTEGER" length="255" name="numOfItems" nullable="false" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

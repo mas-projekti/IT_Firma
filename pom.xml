@@ -126,12 +126,37 @@
     </dependency>
     <dependency>
       <groupId>org.bonitasoft.actorfilter</groupId>
+      <artifactId>bonita-actorfilter-initiator</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.actorfilter</groupId>
       <artifactId>bonita-actorfilter-custom-user-info</artifactId>
       <version>1.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.bonitasoft.actorfilter</groupId>
       <artifactId>bonita-actorfilter-initiator</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+     <dependency>
+      <groupId>org.bonitasoft.actorfilter</groupId>
+      <artifactId>bonita-actorfilter-initiator-manager</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.actorfilter</groupId>
+      <artifactId>bonita-actorfilter-same-task-user</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.actorfilter</groupId>
+      <artifactId>bonita-actorfilter-single-user</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.actorfilter</groupId>
+      <artifactId>bonita-actorfilter-user-manager</artifactId>
       <version>1.0.0</version>
     </dependency>
     <dependency>
@@ -144,6 +169,11 @@
       <artifactId>bonita-connector-document-templating</artifactId>
       <version>2.2.0</version>
     </dependency>
+     <dependency>
+      <groupId>org.bonitasoft.connectors</groupId>  
+      <artifactId>bonita-connector-email</artifactId>
+      <version>1.3.0</version>
+    </dependency>
     <dependency>
       <groupId>org.bonitasoft.connectors</groupId>
       <artifactId>bonita-connector-groovy</artifactId>
@@ -153,6 +183,11 @@
       <groupId>org.bonitasoft.connectors</groupId>
       <artifactId>bonita-connector-cmis</artifactId>
       <version>3.0.5</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bonitasoft.connectors</groupId>
+      <artifactId>bonita-connector-rest</artifactId>
+      <version>1.2.0</version>
     </dependency>
   </dependencies>
   <build>
